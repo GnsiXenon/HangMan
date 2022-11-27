@@ -1,17 +1,17 @@
 package main
 
 import (
-	"hangman"
+	"src"
 )
 
 func main() {
-	file := hangman.DisplayHome()
+	file := src.DisplayHome()
 	if file == "Save.txt" {
-		hangman.Guess("Save", "hangman.txt", "Save.txt")
+		src.Guess("Save", "src.txt", "Save.txt")
 
 	} else {
-		wordsArray := hangman.GetWords(file)
-		words := hangman.Random(wordsArray)
-		hangman.Guess(words, "hangman.txt", file)
+		wordsArray := src.GetWords(file)
+		words := src.Random(wordsArray)
+		src.Guess(words, "src.txt", file)
 	}
 }
