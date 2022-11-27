@@ -8,7 +8,7 @@ import (
 )
 
 //Permet de rajouter un mots a la base de donné de la dificulté
-func AddWord(file string, word string) (string, bool) {
+func AddWords(file string, word string) (string, bool) {
 	word, valid := Isletter(word) //Permet de vérifier si le mot a des caractere spéciaux
 	for !valid {
 		return "Entrer un seul mots", false //si il possede des caracteres speciaux
