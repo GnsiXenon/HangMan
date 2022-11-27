@@ -1,3 +1,3 @@
-module github.com/GnsiXenon/hangman-web-classic
+module github.com/GnsiXenon/HangMan
 
 go 1.13
