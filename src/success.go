@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func Success(found []bool) bool {
 	for i := range found { // loop through boolean values
