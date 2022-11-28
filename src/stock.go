@@ -1,4 +1,4 @@
-package hangman
+package src
 
 import "fmt"
 
