@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func InWord(word string, guess string, InWord []bool) ([]bool, bool) {
 	guessRune := []rune(guess)
