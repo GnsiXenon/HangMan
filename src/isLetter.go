@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func Isletter(guess string) (string, bool) { //permet de changer toutes les lettres qui sont des caractere
 	guessRune := []rune(guess) // spéciaux en lettre miniscule
