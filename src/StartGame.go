@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func StarGame(file string) (string, []bool) {
 	wordsArray := GetWords(file)
