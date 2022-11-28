@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func Guess(word string, guess string, inWord []bool, stock string, attempts int) (string, int, []bool, string, string) { //advenced word attemtps
 	// declaring variables
