@@ -1,4 +1,4 @@
-package hangman
+package src
 
 func Prints(word string, found []bool) string {
 	runeWord := []rune(word) // converting our word -string to runes
